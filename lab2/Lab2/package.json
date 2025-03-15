@@ -4,24 +4,25 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite",              // Este script ejecuta Vite en modo desarrollo
+    "build": "vite build",      // Este script ejecuta el build para producción
+    "lint": "eslint .",         // Este script corre ESLint para verificar el código
+    "preview": "vite preview"  // Este script muestra el resultado de producción
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.0.0",         // React (asegúrate de usar la versión compatible)
+    "react-dom": "^18.0.0"      // ReactDOM (compatible con React)
   },
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react-swc": "^3.8.0",
-    "eslint": "^9.21.0",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^15.15.0",
-    "vite": "^6.2.0"
+    "@eslint/js": "^9.21.0",                            // ESLint para configuración de JS
+    "@types/react": "^18.0.10",                         // Tipos de React para TypeScript (si lo usas)
+    "@types/react-dom": "^18.0.4",                      // Tipos de ReactDOM
+    "@vitejs/plugin-react-swc": "^3.8.0",               // Plugin para React en Vite
+    "eslint": "^9.21.0",                                // ESLint para la calidad del código
+    "eslint-plugin-react-hooks": "^5.1.0",              // Plugin para hooks de React
+    "eslint-plugin-react-refresh": "^0.4.19",           // Plugin para refresco de React
+    "globals": "^15.15.0",                              // Globals para linting
+    "vite": "^4.0.0"                                    // Vite (corre en versión actualizada)
   }
 }
+
